@@ -8,12 +8,12 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Quartz 4",
+    pageTitle: "Making the Chthulucene",
     pageTitleSuffix: "",
     enableSPA: true,
-    enablePopovers: true,
+    enablePopovers: false,
     analytics: {
-      provider: "plausible",
+      provider: "null",
     },
     locale: "en-US",
     baseUrl: "garden.franklinsayre.com",
